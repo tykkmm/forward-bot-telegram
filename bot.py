@@ -2,15 +2,15 @@ from telegram import Update
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
 
 # Token bot Anda
-BOT_TOKEN = "API_BOT_FATHER"
+BOT_TOKEN = "7991927022:AAEKdQ9jSM8-FqtpVRWVacTacV__n6cFgTY"
 
 # ID channel sumber
-SOURCE_CHANNEL_ID = -1001678179757
+SOURCE_CHANNEL_ID = -1002109821340
 
 # Daftar ID channel target
 TARGET_CHANNEL_IDS = [
-    -1002380898678,  # Channel target 1
-    -1002013927555,  # Channel target 2
+    -1002244796953,  # Channel target 1
+    -1002241356207,  # Channel target 2
 ]
 
 def repost_message(update: Update, context: CallbackContext):
